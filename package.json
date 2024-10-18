@@ -16,8 +16,7 @@
     "version": ">=2.0.0",
     "nodes": {
       "my-configs-node": "nodes/configs/my-configs-node.js",
-      "my-input-node": "nodes/output/my-input-node.js",
-      "you-logger-in": "nodes/input/you-logger-in.js"
+      "my-input-node": "nodes/input/my-input-node.js",
     }
   },
   "keywords": [
