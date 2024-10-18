@@ -1,0 +1,30 @@
+
+<script type="text/html" data-template-name="my-configs-node">
+    <div class="form-row">
+      <label for="node-config-input-name"><i class="fa fa-name"></i> Name</label>
+      <input type="text" id="node-config-input-name" />
+    </div>
+  </script>
+  
+  <script type="text/javascript">
+    RED.nodes.registerType('my-configs-node', {
+      category: 'config',
+      color:"#898989",
+      icon: 'font-awesome/fa-log',
+      defaults: {
+        name: { value: '' },
+      },
+      label: function() {
+        return  this.name
+      }
+    });
+  </script>
+
+
+<script type="text/markdown" data-help-name="my-configs-node">
+  
+### my-configs-node
+
+Configuration node. 
+
+</script>
